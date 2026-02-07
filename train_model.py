@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # 1. Load dataset
 # -----------------------------
 # No header in CSV, so header=None
-data = pd.read_csv("gesture_data.csv", header=None)
+data = pd.read_csv("gesture_data_clean.csv", header=None)
 
 # Features: first 63 columns
 X = data.iloc[:, :-1]
