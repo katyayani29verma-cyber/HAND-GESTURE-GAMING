@@ -12,7 +12,7 @@ mp_draw = mp.solutions.drawing_utils
 
 cap = cv2.VideoCapture(0)
 
-gesture = input("Enter gesture label (LEFT / RIGHT / JUMP / SLIDE): ")
+gesture = input("Enter gesture label (LEFT / RIGHT / JUMP / SLIDE / IDLE): ")
 
 file = open("gesture_data.csv", "a", newline="")
 writer = csv.writer(file)
